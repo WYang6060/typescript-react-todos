@@ -36,7 +36,6 @@ export default function App() {
     setTaskList(
       taskList.map((task, idx) => {
         if (idx === id) {
-          console.log(task.isChecked);
           return { task: task.task, isChecked: !task.isChecked };
         }
 
